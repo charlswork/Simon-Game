@@ -1,0 +1,56 @@
+//manipulate the class inside the styles css top add and remove style
+// $("h1").addClass("big-title")
+// $("h1").removeClass("big-title")
+
+//manipulate to change the contents of elements
+// $("h1").text("Bye");
+// $("button").html("<em>Charles</em>");
+// $("button").text("Charles");
+
+
+//to to get the content value of the attribute of an element
+// console.log($("img").attr("src"));
+
+//to set a value of an attribute in a elment
+// $("a").attr("href", "https://www.yahoo.com")
+
+//Jscript
+// for(var i=0; i<5; i++){
+//     document.querySelectorAll("button")[i].addEventListener("click", function(){
+//         document.querySelector("h1").style.color = "purple"
+//     })
+// }
+
+
+//change the color h1 when the h1 tag will be clicked
+// $("h1").click(function(){
+//     $("h1").css("color", "pink")
+// })
+
+
+//change the color of the h1 if the any of the button will be clicked
+// $("button").click(function(){
+//     $("h1").css("color", "pink");
+// })
+
+
+//will select all the content inside the web and after clicking any kind of text in you
+//your keyboard the h1 will be changed
+
+// $(document).keypress(function(event){
+//     // console.log(event.key)
+//     $("h1").text(event.key)
+// })
+
+
+//add purple color on h1 wherne hovering
+// $("h1").on("mouseover", function(){
+//     $("h1").css("color", "purple")
+// })
+
+
+//fadeIn fadeOut toggle fadeToggle slideUp slideDown slideToggle animate
+// $("button").on("click", function(){
+//     $("h1").slideUp().slideDown().animate({opacity: 0.5}) //run in order can be add 3 animation
+//     // $("h1").animate({opacity: 0.5}) //only number value 
+// })
